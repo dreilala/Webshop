@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="Pictures/LogoIcon.ico"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kopffleischexpress - Tiernahrung &amp; Kauspezialitäten</title>
+<link href="Stylesheets/styleShop.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="Javascript/script.js"></script>
+</head>
+<body onload="loaded()">
+	<div id="overall">
+	  <div id="left">
+    <div id="logo"></div>
+           <div id="naviAll">
+             <a href="home.html" style=" margin-left:18px;"><div class="navi"><b>Home</b></div></a>
+             <a href="shop.html"  style=" margin-left:30px;"><div class="navi"><b> Shop</b></div></a>
+             <a href="konto.php" style=" margin-left:47px;"><div class="navi"><b> Mein Kopffleischexpress</b></div></a>
+             <a href="contact.html" style="margin-left:50px;"><div class="navi"><b> Kontakt</b></div></a>
+             <a href="info.html" style="margin-left:37px; width:180px;"><div class="navi" style="width:180px;"><b>Info</b></div></a>
+            </div>           
+        </div>
+        <div id="spalteRechts">
+        	<div id='header'></div>
+            <div id="randLinks"></div>
+             <div id="randRechts"> </div>
+        <div id="content">
+        	<h2>Shop</h2>
+            <form action="shop.php" method="post">
+			<input name="kategorie" type="hidden" value="Hund"/>
+            <a href="javascript:document.forms[0].submit();"><div id="dog"><h3 id="dogh3">Hund</h3></div></a></form>
+            </form>
+            <form action="shop.php" method="post">
+            <input name="kategorie" type="hidden" value="Katze"/>
+            <a href="javascript:document.forms[1].submit();"><div id="cat"><h3 id="cath3">Katzen</h3></div></a></form>
+            <form action="shop.php" method="post">
+            <input name="kategorie" type="hidden" value="Spezial"/>
+            <a href="javascript:document.forms[2].submit();"><div id="special"><h3 id="spezh3">Kauspezialit&auml;ten</h3></div></a></form>
+            </div>
+            </div>
+       <div id="foot"></div>
+    </div>
+</body>
+</html>

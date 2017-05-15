@@ -1,0 +1,119 @@
+body{
+	background-image:url(../Pictures/himmel.jpg);
+	background-size:auto;
+	background-repeat:no-repeat;
+	
+}
+
+div#overall{
+	width:1000px;
+	background-repeat:no-repeat;
+	margin:auto;
+	margin-top: -20px;
+	font-family: "Calibri";
+	border-radius: 10px;
+	box-sizing:content-box;
+	padding: 10px;
+}
+div#header{
+	background-image:url(../Pictures/Header_1000.png);
+	height: 200px;
+	margin-top:50px;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 20px #fff;
+}
+div#left{
+	width: 300px;
+	height:800px;
+	background-image:url(../Pictures/NavigationsLeiste.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	float: left;
+	background-position:left;
+	margin-top:10px;
+	margin-left: 30px;
+}
+	div#logo{
+		position:relative;
+		top:35px;
+		left:42px;
+		background-image:url(../Pictures/Logo.png);
+		background-size:contain;
+		position:relative;
+		height: 200px;
+		width:200px;
+	}
+	div#naviAll a{
+		position:relative;
+		top:80px;
+		left:30px;
+		width: 200px;
+		font-size: 1.1em; 
+		font-family: "Calibri";
+		line-height: 1.60em; 
+		color: #006F03;		
+		letter-spacing: 0.0em;
+		font-weight: 500;
+		text-decoration: none;
+		display:block;
+	}
+		div.navi{
+			height: 50px;
+			width: 200px;
+			background-repeat:repeat-y;
+			vertical-align: middle;
+			margin-top: 10px;
+			line-height: 50px;
+			padding-left: 3px;
+		}
+		
+		div.navi:hover{
+			background-image:url(../Pictures/NavigationsLinks.png);
+			color:#FFF;
+		}
+	
+div#content{
+	margin-left:350px;
+	color:#001f0a;
+	font-size: 1.4em;
+	font-style:italic;
+	padding-bottom: 30px;
+	width: 400px;
+}
+div#randLinks{
+	width: 20px;
+	float:left;
+}
+div#randRechts{
+	width: 20px;
+	float:right;
+}
+div#foot{	
+	clear:left;
+	height:5px;
+}
+form *{
+	float: right;
+}
+form label{
+	float:none;	
+}
+form div#login{
+	background-image:url(../Pictures/btEdit.png);
+	width: 130px;
+	height: 30px;	
+	border-radius: 4px;
+	margin-right: 1px;
+	text-decoration:none;
+	box-shadow: inset 0px 0px 4px #fff;
+	text-align:center;
+	color:#000;
+}
+form div#login:hover{
+	box-shadow: inset 0px 0px 7px #fff;	
+}
+p#reg{
+	margin-left:200px;
+	float: right;
+	font-size:14px;
+}

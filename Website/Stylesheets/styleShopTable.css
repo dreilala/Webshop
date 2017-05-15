@@ -1,0 +1,125 @@
+body{
+	background-image:url(../Pictures/himmel.jpg);
+	background-size:auto;
+	background-repeat:no-repeat;
+	
+}
+
+div#overall{
+	width:1000px;
+	background-repeat:no-repeat;
+	margin:auto;
+	margin-top: -20px;
+	font-family: "Calibri";
+	border-radius: 10px;
+	box-sizing:content-box;
+	padding: 10px;
+	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+div#header{marker-offset:inherit;
+	background-image:url(../Pictures/Header_1000.png);
+	height: 200px;
+	margin-top:50px;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 20px #fff;
+}
+div#left{
+	width: 300px;
+	height:800px;
+	background-image:url(../Pictures/NavigationsLeiste.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	float: left;
+	background-position:left;
+	margin-top:10px;
+	margin-left: 30px;
+}
+	div#logo{
+		position:relative;
+		top:35px;
+		left:42px;
+		background-image:url(../Pictures/Logo.png);
+		background-size:contain;
+		position:relative;
+		height: 200px;
+		width:200px;
+	}
+	div#naviAll a{
+		position:relative;
+		top:80px;
+		left:30px;
+		width: 200px;
+		font-size: 1.1em; 
+		font-family: "Calibri";
+		line-height: 1.60em; 
+		color: #006F03;		
+		letter-spacing: 0.0em;
+		font-weight: 500;
+		text-decoration: none;
+		display:block;
+	}
+	div.navi{
+			height: 50px;
+			width: 200px;
+			background-repeat:repeat-y;
+			vertical-align: middle;
+			margin-top: 10px;
+			line-height: 50px;
+			padding-left: 3px;
+	}
+	div.navi:hover{
+			background-image:url(../Pictures/NavigationsLinks.png);
+			color:#FFF;
+		}	
+h2{	font-style:italic;
+	text-decoration:none;}
+div#content{
+	margin-left:350px;
+	color:#001f0a;
+	text-decoration:none;
+}
+div#randLinks{
+	width: 20px;
+	float:left;
+}
+div#randRechts{
+	width: 20px;
+	float:right;
+}
+
+div#cartsearch{
+	padding:5px;
+
+	background-image:url(../Pictures/btEdit.png);
+	margin-right:55px;
+	border-radius: 7px;
+	box-shadow: inset 0px 0px 20px #001f0a;}
+
+input[type=text]{
+	border-radius: 5px;
+}
+
+div#foot{	
+	clear:left;
+	height:5px;
+}
+
+
+th{text-align:left;}
+
+td{padding-right:5px;}
+
+div#artikelTable{
+	max-height: 375px;
+	overflow:auto;	
+}
+
+a{
+	color:#001f0a;
+	cursor:pointer;
+	text-decoration:underline;	
+}
